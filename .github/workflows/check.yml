@@ -35,6 +35,6 @@ jobs:
         run: npm ci
 
       - name: Run checks
-        run: npm run lint
+        run: npm start
         env:
           FORCE_COLOR: true
